@@ -3,8 +3,11 @@
 """
 Created on Thu Jun 27 11:11:19 2019
 
-@author: katiebruce
+@author: katherinebruce
 """
+# This code converts magnitudes from the CV filter to V or B filter
+# With the input of the comp star used
+
 import pandas as pd
 
 choice = eval(input("Enter 1 for CV single, enter 2 for CV .csv file, enter 3 for Vis single, enter 4 for vis .cvs file: "))
